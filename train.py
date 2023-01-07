@@ -84,10 +84,7 @@ def main():
         batch_size=32,
         num_workers=4
     )
-    trainer.fit(module, train_dataloaders=)
-    
-        
-
+    trainer.fit(module, train_dataloaders=train_dl, valid_dataloaders=test_dl)
 
 if __name__ == "__main__":
     main()
